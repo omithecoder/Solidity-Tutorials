@@ -1,2 +1,16 @@
 # Solidity-Tutorials
-Solidity Tutorial : 1) Basic Syntax 2) Variables 3) Functions 4) Visibility 5) Array 6) Structure 7)All Array &amp; string Function 8) Require (conditionals) 9)Modifiers 10) Events 11) Loops (while,for) 12) Inheritance (Openzepphlin-Library) 13)  Contract-To-Contract Interaction 
+<ol type="1">
+<li>Basic Syntax</li>
+<li>Variables</li>  
+<li>Functions</li>
+<li> Visibility</li>
+<li> Array</li>
+<li>Structure</li>
+<li>All Array &amp; string Function</li>
+<li>Require (conditionals)</li>
+<li>Modifiers</li>
+<li>Events</li>
+<li>Loops (while,for)</li>
+<li>Inheritance (Openzepphlin-Library)</li>
+<li>Contract-To-Contract Interaction </li>
+</ol>
