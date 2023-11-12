@@ -1,0 +1,68 @@
+{
+	"id": "fb01dfe3b5acf83cf083e9ed1a63e192",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.23",
+	"solcLongVersion": "0.8.23+commit.f704f362",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/Contract_Interaction.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.18;\r\n\r\n\r\n\r\n// In Solidity, contract-to-contract interaction involves one smart contract interacting with another. This interaction can include calling functions on another contract, sending Ether, or even passing data between contracts.\r\n// Contract to Contract Interaction: Under this Concept we can call function of a completely different contract to any contract here we want to create a blueprint of that contract to which we want to interact our live contract this blueprint should be live contract only"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/Contract_Interaction.sol": {
+				"ast": {
+					"absolutePath": "contracts/Contract_Interaction.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".18"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:24:0"
+						}
+					],
+					"src": "33:529:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

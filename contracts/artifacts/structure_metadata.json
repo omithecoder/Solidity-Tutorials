@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "Age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "loc",
+						"type": "string"
+					}
+				],
+				"name": "AddStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "DeleteMyData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ShowMyData",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "Name",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "Account",
+								"type": "address"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "Location",
+								"type": "string"
+							}
+						],
+						"internalType": "struct structure.student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Structure.sol": "structure"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Structure.sol": {
+			"keccak256": "0x25e89c457c3fe7d5162a5b61ad46638229dd6bba08a658f6233064942b65d44e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c685a312489a655392fe1a3ea647615236b7742f3ef0ee4d1952d6a31539a333",
+				"dweb:/ipfs/QmZ1jhu1cYwc8edrfXcztCgTNQZdd3o8B6DMxYpDQECi9q"
+			]
+		}
+	},
+	"version": 1
+}

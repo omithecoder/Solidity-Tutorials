@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Expense",
+						"type": "uint256"
+					}
+				],
+				"name": "AddExpenses",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Get_All_Expense",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TotalExpense",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CalculateAllExpenses.sol": "CalculateAllExpenses"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CalculateAllExpenses.sol": {
+			"keccak256": "0x8a44550446c0185632cc2cabe80bf32abe98c5ea29f04dad5b8beefdcea9e039",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://55164093a15d25dd07f124c83de347f0db90c6d5bdf08963a09b02ce30f979cd",
+				"dweb:/ipfs/QmPbZnUcv8fBdkd16un2ZSUCt5A61rNAxgYgnCfjjC1Rfx"
+			]
+		}
+	},
+	"version": 1
+}
