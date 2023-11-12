@@ -13,4 +13,6 @@
 <li>Loops (while,for)</li>
 <li>Inheritance (Openzepphlin-Library)</li>
 <li>Contract-To-Contract Interaction </li>
+<li>Twitter Smart-Contract [basic -> 0.9v] </li>
+<li>Twitter DAPP (smart contract)</li>
 </ol>
